@@ -48,7 +48,7 @@ directory `build/chromium`.
 
 To get a local copy of the current code, clone it using git:
 
-    $ git clone https://github.com/datevid/pdf.js_wolvz.git
+    $ git clone https://github.com/datevid/pdf.js.git
     $ cd pdf.js
 
 Next, install Node.js via the [official package](http://nodejs.org) or via
@@ -136,3 +136,8 @@ Follow us on twitter: @pdfjs
 Weekly Public Meetings
 
 + https://github.com/mozilla/pdf.js/wiki/Weekly-Public-Meetings
+
+Referencia de algunos forks con soporte de firma
++ https://github.com/zambonin/pdf.js
++ https://github.com/wolvz/pdf.js (fork)
++ https://github.com/viveksjain/pdf.js
