@@ -1346,8 +1346,8 @@ function webViewerInitialized() {
 //#endif
 
   if (!PDFViewerApplication.supportsPrinting) {
-    document.getElementById('print').classList.add('hidden');
-    document.getElementById('secondaryPrint').classList.add('hidden');
+    /*document.getElementById('print').classList.add('hidden');
+    document.getElementById('secondaryPrint').classList.add('hidden');*/
   }
 
   if (!PDFViewerApplication.supportsFullscreen) {
@@ -1446,7 +1446,7 @@ function webViewerInitialized() {
     PDFViewerApplication.pdfViewer.currentScaleValue = this.value;
   });
 
-  document.getElementById('presentationMode').addEventListener('click',
+  /*document.getElementById('presentationMode').addEventListener('click',
     SecondaryToolbar.presentationModeClick.bind(SecondaryToolbar));
 
   document.getElementById('openFile').addEventListener('click',
@@ -1456,7 +1456,7 @@ function webViewerInitialized() {
     SecondaryToolbar.printClick.bind(SecondaryToolbar));
 
   document.getElementById('download').addEventListener('click',
-    SecondaryToolbar.downloadClick.bind(SecondaryToolbar));
+    SecondaryToolbar.downloadClick.bind(SecondaryToolbar));*/
 
 //#if (FIREFOX || MOZCENTRAL)
 //PDFViewerApplication.setTitleUsingUrl(file);
@@ -1608,10 +1608,10 @@ window.addEventListener('updateviewarea', function (evt) {
       // unable to write to storage
     });
   });
-  var href =
+  /*var href =
     PDFViewerApplication.pdfLinkService.getAnchorUrl(location.pdfOpenParams);
   document.getElementById('viewBookmark').href = href;
-  document.getElementById('secondaryViewBookmark').href = href;
+  document.getElementById('secondaryViewBookmark').href = href;*/
 
   // Update the current bookmark in the browsing history.
   PDFViewerApplication.pdfHistory.updateCurrentBookmark(location.pdfOpenParams,

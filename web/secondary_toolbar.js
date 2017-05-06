@@ -46,8 +46,7 @@ var SecondaryToolbar = {
       { element: this.toggleButton, handler: this.toggle },
       // All items within the secondary toolbar
       // (except for toggleHandTool, hand_tool.js is responsible for it):
-      { element: this.presentationModeButton,
-        handler: this.presentationModeClick },
+      { element: this.presentationModeButton, handler: this.presentationModeClick },
       { element: this.openFile, handler: this.openFileClick },
       { element: this.print, handler: this.printClick },
       { element: this.download, handler: this.downloadClick },
